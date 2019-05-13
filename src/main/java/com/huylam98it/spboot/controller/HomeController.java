@@ -1,4 +1,4 @@
-package simplemvc.controller;
+package com.huylam98it.spboot.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,5 +10,5 @@ public class HomeController {
 	public String homePage() {
 		return "home";
 	}
-	
+
 }
