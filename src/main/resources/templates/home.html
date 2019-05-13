@@ -7,5 +7,10 @@
 <body>
 	<h1>Home page</h1>
 	<h2>Wellcome to app</h2>
+	<img th:src="@{/images/{link}(link=${link})}" style="width: 300px;height: auto">
+	<form th:action="@{/upload}" method="post" enctype="multipart/form-data">
+		<input type="file" name="mf">
+		<input type="submit" value="send">
+	</form>
 </body>
 </html>
